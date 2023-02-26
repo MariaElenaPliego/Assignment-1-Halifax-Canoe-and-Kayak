@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Style1.css" type="text/css" />
+    <link rel="shortcut icon" type="image/png" href="images/paddle-white.png">
+
+    <title>Halifax Canoe and Kayak</title>
+
+  </head>
+  
+  <body>
+    <!--Here starts the webiste, it contains the header and the Hidden Menu-->
+    <div class="banner" id="myHeader">
+        <div>
+            <button class= "menuBtn" onclick="myFunction2()">
+                <img src="images/Hamburger.png" alt="Menu" width="40px">
+            </button>
+        </div>
+
+        <div class="inside">
+            <h1>Halifax Canoe and Kayak</h1>
+        </div>
+        <div class="logo">
+            <img src="images/paddle-white.png" alt="Logo" width="40px"/>
+        </div>
+    </div>
+
+    <div id="myMenu" class="btn-group" style="visibility: hidden;">
+        <button>Home</button>
+        <button>Book Trip</button>
+        <button>Admin Login</button>
+    </div>
+   
+    <!--This is the main content, it contains the image and information about the next events-->
+    <main>
+        <div class="image">
+            <img src="images/canoe.jpeg" alt="Experience Canada" width="100%" height="100%"/>
+            <div class="centered">
+                Come, experience Canada
+            </div>
+        </div>
+        <h2>
+            Upcoming Adventures
+        </h2>
+
+        <div class="text">
+            <div class="events">
+                <div>
+                    <h3>Halifax</h3>
+                </div>
+                <div>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+                </div>
+                <div>
+                    <button class="seeMorebtn">
+                        See more
+                    </button>
+                </div>
+            </div>
+            <div class="events">
+                <div>
+                    <h3>Halifax</h3>
+                </div>
+                <div>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+                </div>
+                <div>
+                    <button class="seeMorebtn">
+                        See more
+                    </button>
+                </div>
+            </div>
+            <div class="events">
+                <div>
+                    <h3>Halifax</h3>
+                </div>
+                <div>
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+                </div>
+                <div>
+                    <button class="seeMorebtn">
+                        See more
+                    </button>
+                </div>
+            </div>      
+        </div>    
+    </main>
+
+    <!--This is the footer, I added a placeholder for people to subscribe and Social Media links
+    This section is not fully responsive but I will try to adjust it in the future when I have more knowledge-->
+    <footer>
+        <div class="foot">
+            <div class="info">
+                    <div>
+                        <h4>
+                            Don't miss any events
+                        </h4>
+                    </div>
+
+                    <div>
+                        <input placeholder="Your email" class="email">
+                        <button class="Sign">
+                            Sign Up
+                        </button>
+                    </div>
+            </div>
+
+            <div class="info">
+                <div>
+                    <h4>
+                        Stay Connected
+                    </h4>
+                </div>
+                <div>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </div>  
+            </div>  
+        </div>
+    </footer>
+
+    <!--This is the link for the Javascript file-->
+    <script src="myScript1.js"></script>
+    
+  </body>
+
+</html>

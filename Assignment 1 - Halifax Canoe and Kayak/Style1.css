@@ -1,0 +1,252 @@
+body{
+    margin: 0px;
+}
+
+main{
+    max-width: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.banner{
+    background-color: rgb(5, 150, 198);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+    vertical-align: middle;
+    z-index: 1;
+    box-shadow: 0px 0px 50px #1c3e68;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+.inside{
+    text-align: center;
+}
+
+.menuBtn
+{
+    cursor: pointer;
+    margin: 20px;
+    background-color: inherit;
+    transition: background-color 2s ease-out 100ms;
+    border: 0ch;
+}
+
+.menuBtn:hover {
+    background-color:azure ;
+}
+
+.logo{
+    text-align: center;
+    margin: 20px;
+}
+
+#myMenu {
+    width: 50%;
+    height: 100%;
+    background-color:rgb(5, 150, 198);
+    position: fixed;
+    z-index: 10;
+}
+
+.btn-group button {
+    background-color: inherit;
+    padding: 5%;
+    cursor: pointer;
+    border: 0ch;
+    width: 100%;
+    display: block;
+    margin-right: 40px;
+    transition: background-color 2s ease-out 100ms;
+    font-size:30px;
+    font-family: sans-serif;
+    text-align:left;
+    color: white;
+}
+
+.btn-group button:hover {
+    background-color:azure ;
+}
+
+.seeMorebtn {
+    background-color: rgb(5, 150, 198);
+    border: 0ch;
+    padding: 5%;
+    cursor: pointer;
+    font-size:10px;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 2s ease-out 100ms;
+    margin-top: 5px;
+}
+
+.seeMorebtn:hover {
+    background-color:azure ;
+}
+
+.image{
+    color: white;
+    text-align: center;
+    font-size:80px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+    position: relative;
+    display: flex;
+    z-index: -1;
+}
+
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.events{
+    text-align: left;
+    padding: 10px;
+}
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #c7ebf8;
+}
+
+.info{
+    text-align: left;
+    padding: 40px;
+    flex: 1;
+}
+
+.email{
+    font-size:10px;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    padding: 10px;
+    border: 0ch;
+}
+
+.Sign {
+    background-color: rgb(5, 150, 198);
+    border: 0ch;
+    cursor: pointer;
+    font-size:10px;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 2s ease-out 100ms;
+    margin-left: 15px;
+    padding: 10px;
+}
+
+.Sign:hover {
+    background-color:azure ;
+}
+
+.fa {
+    padding: 5%;
+    font-size: 15px;
+    width: 5px;
+    height: 5px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 15px;
+    transition: opacity 2s ease-out 100ms;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #fb1588;
+    color: white;
+}
+
+h1 {
+    font-size:30px;
+    font-family: 'Noto Sans', sans-serif;
+    text-align:center;
+    color: white;
+}
+
+h2{
+    font-size:30px;
+    font-family: 'Noto Sans', sans-serif;
+    text-align:center;
+    color: rgb(8, 8, 8);
+}
+
+h3 {
+    font-size:20px;
+    font-family: 'Noto Sans', sans-serif;
+    color: rgb(5, 150, 198);
+}
+
+h4 {
+    font-size:20px;
+    font-family: 'Noto Sans', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+p{
+    font-size:15px;
+    font-family: 'Noto Sans', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+@media only screen and (max-width: 800px) {
+    h1 {
+        font-size:25px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    p{
+        font-size: 10px;
+    }
+
+    .image{
+        font-size:50px;
+    }
+}
